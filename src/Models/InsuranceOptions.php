@@ -4,17 +4,17 @@ namespace LaravelShipStation\Models;
 class InsuranceOptions
 {
     /**
-     * @var string Preferred Insurance provider. Available options: "shipsurance" or "carrier"
+     * @var string|null Preferred Insurance provider. Available options: "shipsurance" or "carrier"
      */
     public $provider;
 
     /**
-     * @var bool Indicates whether shipment should be insured.
+     * @var bool|null Indicates whether shipment should be insured.
      */
     public $insureShipment;
 
     /**
-     * @var float Value to insure.
+     * @var float|null Value to insure.
      */
     public $insuredValue;
 }
