@@ -4,12 +4,12 @@ namespace LaravelShipStation\Models;
 class ItemOption
 {
     /**
-     * @var string Name of item option. Example: "Size"
+     * @var string|null Name of item option. Example: "Size"
      */
     public $name;
 
     /**
-     * @var string The value of item option. Example: "Medium"
+     * @var string|null The value of item option. Example: "Medium"
      */
     public $value;
 }
